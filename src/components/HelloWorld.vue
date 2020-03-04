@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
-    <mt-button type="default" @click="show">default</mt-button>
+    <mt-header fixed title="固定在顶部"></mt-header>
+    <h1>hello world</h1>
+    <!-- <mt-button type="default" @click="show">default</mt-button>
     <mt-button type="primary">primary</mt-button>
-    <mt-button type="danger">danger</mt-button>
+    <mt-button type="danger">danger</mt-button> -->
   </div>
 </template>
 
@@ -23,9 +25,10 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 h1, h2 {
   font-weight: normal;
+  color: red;
 }
 ul {
   list-style-type: none;

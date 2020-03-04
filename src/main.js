@@ -7,11 +7,12 @@ import App from './App'
 import router from './router'
 // import MintUI from 'mint-ui'
 // 按需导入
-import { Button, Toast } from 'mint-ui'
+import { Button, Header, Toast } from 'mint-ui'
 
 Vue.config.productionTip = false
 
 Vue.component('mt-button', Button)
+Vue.component('mt-header', Header)
 
 /**
  * 全部导入
